@@ -30,10 +30,20 @@ justify-content: center;
 .d-flex .Login{
     margin-right: 2em;
     border: none;
+    font-size: 12px;
     font-weight: 500;
     color: hsl(0, 0%, 41%);
 }
 .Register{
     border-color: hsl(0, 0%, 41%);
     color: hsl(0, 0%, 41%);
+    margin-right: 2em;
+    font-size: 12px;
+}
+.Login:hover,
+.Register:hover{
+    color: hsl(0, 0%, 8%);
+    border-color: hsl(0, 0%, 8%);
+    background-color: transparent;
+    cursor: pointer;
 }
