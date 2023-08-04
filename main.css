@@ -121,6 +121,9 @@ justify-content: center;
     flex-direction: row;
     justify-content: space-evenly;
 }
+.mobile-image {
+    display: none;
+}
 .box1{
     width: 38%;
     margin: 4.5em 3em;
@@ -158,11 +161,32 @@ justify-content: center;
     margin-top: 10px;
 }
 @media (max-width: 768px) {
+    .navbar-brand{
+        margin: 10px;
+    }
+    .navbar-toggler{
+        margin: 0;
+    }
+
     .mobile-image {
         display: block;
+        width: 200px;
+        height: 100px;
     }
 
     .desktop-image {
         display: none;
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box1 .hero-heading{
+        font-size: 20px;
+        text-align: center;
+    }
+    .box1 .hero-text{
+        text-align: center;
+        font-size: 10px;
     }
 }
