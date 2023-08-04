@@ -74,10 +74,6 @@ margin-top: 5px;
 align-items: center;
 justify-content: center;
 }
-.icon-arrow:active{
-    transform: rotate(3.142rad);
-    transition: 0.3s;
-}
 .collapse{ 
     margin-left: 2em;
 }
